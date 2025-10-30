@@ -1,13 +1,21 @@
 .root {
         font-family: Arial, Helvetica, sans-serif;
 }
+body {margin: 0;}
+
+
+#wrapper {
+        margin: auto;
+        padding: 1%;
+        width: 33.33%;
+        background-color: white;
+}
 
 html {
+        margin: 0 0;
         font-size: 80%;        
-        background :linear-gradient(135deg,blue,white) contain,
-        url(Lab/materiale/materiale/images/favicon-96x96.png),
-        url(Lab/materiale/materiale/images/favicon-96x96.png) center right,
-        url(Lab/materiale/materiale/images/favicon-96x96.png) bottom left;
+        background :linear-gradient(135deg,rgb(59, 94, 146),white) ;
+
 }
 
 h1 {font-size: 2em;}
@@ -19,9 +27,14 @@ header {
         text-align: center;
 }
 
+em {
+        font-style: normal;
+        font-weight: bold;
+}
+
 header h1 {
             text-indent: -999em;
-            background: url(Lab/materiale/materiale/images/logo_fipav.svg) no-repeat;
+            background: url(../materiale/images/logo_fipav.svg) 200% 200% contain center no-repeat;
           }
 
 header h2 {
